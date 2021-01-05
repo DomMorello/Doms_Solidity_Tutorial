@@ -12,7 +12,7 @@ contract ERC20Token {
         balances[tx.origin] ++;
     }
 }
-
+ 
 contract MyToken is ERC20Token {
     string public symbol;
     address[] public owners;
